@@ -26,15 +26,16 @@ const Home = () => {
     init();
   }, [init]);
 
-  const onClickAnywhere = () => {
+  const onClickAnywhere = useCallback(() => {
     if (inputRef.current) {
-      inputRef.current.focus();
+      inputRef.current.scrollIntoView();
+      inputRef.current.focus({ preventScroll: true });
     }
-  };
+  }, [history]);
 
   return (
     <main
-      className="w-full h-full border-2 border-gray rounded-md px-8 py-6 overflow-auto"
+      className="w-full h-full border-2 border-gray rounded-md px-8 py-6 overflow-auto scroll-smooth"
       onClick={onClickAnywhere}
     >
       <History history={history} />
