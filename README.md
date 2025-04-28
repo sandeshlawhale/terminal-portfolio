@@ -19,7 +19,6 @@ Experience my world directly through Retro Style — because who said portfolios
 │   ├── utils/
 │   │   ├── bin/     # All command handlers (about, projects, etc.)
 │   │   └── commands.ts # List of available commands
-│   ├── styles/      # Tailwind and custom CSS
 │   ├── pages/       # Next.js pages (_app.tsx, index.tsx)
 ├── README.md
 ├── tailwind.config.ts
@@ -73,6 +72,11 @@ yarn dev
  - inspired heavily by LiveTerm.
 
 ## License
+This Project is licensed under the [MIT License](LICENSE).
+
+---
+
+Made with <3 by Sandesh Lawhale
 
 ## Quick Ending Note
 > This isn't just a **portfolio** - it's a playground.
