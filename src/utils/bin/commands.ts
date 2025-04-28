@@ -147,7 +147,7 @@ export const experience = () => {
 export const anime = () => {
   let result = "";
 
-  let art = [
+  const art = [
     `⠐⣪⡑⣤⣶⣶⣶⣦⡔⣩⡒⠀
 ⢸⣯⣾⣿⢏⣿⣏⢿⣿⣮⣿⠀
 ⢸⣿⢸⡗⣶⠙⢱⡖⣿⢸⣿⠀
@@ -210,7 +210,7 @@ export const anime = () => {
 export const games = () => {
   let result = "";
 
-  let art = [
+  const art = [
     `⠀⠀⠀⠀⠀⢀⣤⣤⣤⣤⣤⣤⣄⠀⠀⠀
 ⠀⠀⠀⠀⢰⡿⠁⠀⢀⣀⣀⣈⣻⣷⡄⠀
 ⠀⠀⠀⢀⣿⠁⠀⣸⢿⠉⠉⠉⠉⠉⠻⣆
