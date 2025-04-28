@@ -1,10 +1,96 @@
 {
   "name": "Sandesh Lawhale",
+  "email": "sandeshlawhale@gmail.com",
   "title": "Terminal | Sandesh Lawhale",
   "desc": "Terminal Portfolio Of The Great Sandesh Lawhale",
   "ascii": "sandesh",
   "Ps1_hostname": "portfolio",
   "Ps1_username": "sandeshlawhale",
-  "repo": "",
-  "github": ""
+  "repo": "https://github.com/sandeshlawhale/terminal-portfolio",
+  "socials": [
+    {
+      "name": "github",
+      "link": "https://github.com/sandeshlawhale"
+    },
+    {
+      "name": "linkedIn",
+      "link": "https://linkedin.com/in/lawhalesandesh/"
+    },
+    {
+      "name": "Instagram",
+      "link": "https://instagram.com/_exotic.sandesh/"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Trueno Wheels",
+      "link": "https://github.com/sandeshlawhale/trueno-wheels"
+    },
+    {
+      "name": "Chat Application",
+      "link": "https://github.com/sandeshlawhale/Chat-App"
+    },
+    {
+      "name": "Traverse Landing Page",
+      "link": "https://github.com/sandeshlawhale/traverse-landing-page"
+    },
+    {
+      "name": "Wordle Clone",
+      "link": "https://github.com/sandeshlawhale/wordle-clone"
+    }
+  ],
+  "skills": [
+    {
+      "title": "Frontend",
+      "items": [
+        "React.js & Next.js",
+        "HTML5, CSS3 & JavaScript",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "title": "Backend",
+      "items": ["Node.js & Express.js", "MongoDB", "Firebase"]
+    },
+    {
+      "title": "Tools & Others",
+      "items": ["Git", "GitHub", "Socket.IO", "REST APIs", "TypeScript"]
+    },
+    {
+      "title": "Currently Exploring",
+      "items": ["React Native", "Advanced Next.js concepts"]
+    }
+  ],
+  "exp": [
+    {
+      "role": "Full-Stack Developer",
+      "company": "TruScholar",
+      "period": "2025 - Present",
+      "bullets": [
+        "Working on the core blockchain-based academic credentialing product",
+        "Contributing to service-based client projects across multiple industries",
+        "Focused on building secure, fast, and user-centric web applications"
+      ]
+    },
+    {
+      "role": "Freelance Full-Stack Developer",
+      "company": "Self-Employed",
+      "period": "2021 - Present",
+      "bullets": [
+        "Developing modern web applications (MERN stack, Next.js, etc.)",
+        "Building scalable and responsive projects for various clients"
+      ]
+    }
+  ],
+  "anime": [
+    "Code Geass",
+    "Steins;Gate",
+    "Fullmetal Alchemist: Brotherhood",
+    "Attack on Titan",
+    "Link Click",
+    "Assassination Classroom",
+    "Fate",
+    "Naruto"
+  ],
+  "games": ["Sekiro", "Elden Ring", "Valorant", "AC Odyssey", "A plague tale"]
 }

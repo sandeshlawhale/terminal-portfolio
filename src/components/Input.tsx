@@ -41,7 +41,6 @@ const Input = ({
     if (event.key === "Enter") {
       event.preventDefault();
       setLastCommandIndex(0);
-      // TODO: add shell output here
       await shell(command, setHistory, clearHistory, setCommand);
       console.log("enter");
     }
