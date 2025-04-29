@@ -31,6 +31,13 @@ const Home = () => {
       inputRef.current.scrollIntoView();
       inputRef.current.focus({ preventScroll: true });
     }
+  }, []);
+
+  useEffect(() => {
+    if (inputRef.current) {
+      inputRef.current.scrollIntoView();
+      inputRef.current.focus({ preventScroll: true });
+    }
   }, [history]);
 
   return (

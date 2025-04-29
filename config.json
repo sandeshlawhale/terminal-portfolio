@@ -3,7 +3,7 @@
   "email": "sandeshlawhale@gmail.com",
   "title": "Terminal | Sandesh Lawhale",
   "desc": "Terminal Portfolio Of The Great Sandesh Lawhale",
-  "ascii": "sandesh",
+  "ascii": "sandeshlawhale",
   "Ps1_hostname": "portfolio",
   "Ps1_username": "sandeshlawhale",
   "repo": "https://github.com/sandeshlawhale/terminal-portfolio",
@@ -80,6 +80,35 @@
         "Developing modern web applications (MERN stack, Next.js, etc.)",
         "Building scalable and responsive projects for various clients"
       ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering (B.E.) in Computer Science",
+      "institution": "Sant Gadge Baba Amravati University",
+      "duration": "2021 - 2025",
+      "percentage": "67.71%",
+      "board": "University",
+      "highlights": [
+        "Final Year Aggregate: 70.71%",
+        "Key Courses: Data Structures, Web Development, OS, Algorithms"
+      ]
+    },
+    {
+      "degree": "Higher Secondary Certificate (HSC)",
+      "institution": "Maharashtra State Board",
+      "duration": "2019 - 2021",
+      "percentage": "88.83%",
+      "board": "State Board",
+      "highlights": ["Percentage: 88.83%", "Stream: Science"]
+    },
+    {
+      "degree": "Secondary School Certificate (SSC)",
+      "institution": "Maharashtra State Board",
+      "duration": "2018 - 2019",
+      "percentage": "83.00%",
+      "board": "State Board",
+      "highlights": ["Percentage: 83.00%"]
     }
   ],
   "anime": [

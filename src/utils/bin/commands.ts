@@ -142,6 +142,21 @@ export const experience = () => {
 };
 
 // education
+export const education = () => {
+  let result = "";
+
+  config.education.forEach(
+    (item) =>
+      (result += `\n<p class="text-gray">${item.degree}</p>${
+        item.institution
+      } (${item.duration})\n${item.highlights
+        .map((point) => `• ${point}`)
+        .join("\n")}
+      `)
+  );
+
+  return result;
+};
 
 // anime
 export const anime = () => {
@@ -248,10 +263,34 @@ export const contact = () => {
     mailto:${config.email}" target="_blank">${config.email}</a></u>\n\nFor more social link try "Socials".`;
 };
 
+// signature
+export const signature = () => {
+  const prompts = [
+    `reward += 1 for visiting my portfolio
+
+Agent: Sandesh Lawhale
+Role: Full-Stack Developer, RL Enthusiast
+State: Coding || Learning || Building
+`,
+    `┌─[Sandesh@terminal-portfolio]─[Full Stack Developer]
+└──╼ # echo "Coding is not just syntax; it's thinking in logic."
+`,
+    `Sandesh Lawhale
+Full-Stack Developer | MERN Stack | Firebase | React | Node.js
+"Code. Create. Connect."
+`,
+  ];
+
+  const randomIndex = Math.floor(Math.random() * prompts.length);
+
+  const result = `${prompts[randomIndex]}\n&copy; 2025 by @${config.ascii}`;
+
+  return result;
+};
+
 // main banner
 export const banner = () => {
-  return `
-  Welcome to the terminal portfolio of
+  return `  Welcome to the terminal portfolio of
 
   ███████╗ █████╗ ███╗   ██╗██████╗ ███████╗███████╗██╗  ██╗    ██╗      █████╗ ██╗    ██╗██╗  ██╗ █████╗ ██╗     ███████╗
   ██╔════╝██╔══██╗████╗  ██║██╔══██╗██╔════╝██╔════╝██║  ██║    ██║     ██╔══██╗██║    ██║██║  ██║██╔══██╗██║     ██╔════╝
@@ -260,7 +299,6 @@ export const banner = () => {
   ███████║██║  ██║██║ ╚████║██████╔╝███████╗███████║██║  ██║    ███████╗██║  ██║╚███╔███╔╝██║  ██║██║  ██║███████╗███████╗
   ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═╝ ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝ portfolio@sandeshlawhale
                                                                                                                           
-  
   
   Type 'help' to see the list of available commands.
   Type 'sumfetch' to display summary.
