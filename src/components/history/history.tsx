@@ -13,6 +13,7 @@ const History: React.FC<{ history: Array<history> }> = ({ history }) => {
             </div>
             <p className="grow">{entry.command}</p>
           </div>
+          <p>&rsaquo;&rsaquo; {entry.command}</p>
           <p
             className="whitespace-pre-wrap mb-2"
             style={{ lineHeight: "normal" }}
