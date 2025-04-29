@@ -3,6 +3,8 @@ A Terminal-inspired personal portfolio, built with Next.js, Tailwind CSS, and Ty
 Inspired by [LiveTerm]().
 Experience my world directly through Retro Style — because who said portfolios need to be mordern?
 
+### Demo Link - [https://sandeshlawhaleterminal.vercel.app/](https://sandeshlawhaleterminal.vercel.app/)
+
 ## Features
  - Fully Responsive Terminal Interface
  - Custom Commands (type "help" to start)
