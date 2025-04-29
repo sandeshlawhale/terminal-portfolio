@@ -11,7 +11,7 @@ export const help = () => {
       c += Object.keys(bin).sort()[i - 1] + " ";
     }
   }
-  return `here is the available commands that u can try  \n${c}`;
+  return `here is the available commands that u can try \n\n${c}`;
 };
 
 // to display info about me
@@ -99,6 +99,12 @@ export const instagram = () => {
 export const repo = () => {
   window.open(config.repo);
   return "Opening the repo...";
+};
+
+// link to resume
+export const resume = () => {
+  window.open(config.resume);
+  return "Opening resume...";
 };
 
 // link to projects
@@ -286,6 +292,12 @@ Full-Stack Developer | MERN Stack | Firebase | React | Node.js
   const result = `${prompts[randomIndex]}\n&copy; 2025 by @${config.ascii}`;
 
   return result;
+};
+
+// Gui to switch to mordern profile
+export const gui = () => {
+  window.open(config.site);
+  return "opening GUI...";
 };
 
 // main banner
