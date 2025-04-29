@@ -1,11 +1,14 @@
 {
   "name": "Sandesh Lawhale",
+  "role": "Full-Stack Developer",
   "email": "sandeshlawhale@gmail.com",
   "title": "Terminal | Sandesh Lawhale",
   "desc": "Terminal Portfolio Of The Great Sandesh Lawhale",
   "ascii": "sandeshlawhale",
+  "site": "https://sandeshlawhale.vercel.app",
   "Ps1_hostname": "portfolio",
   "Ps1_username": "sandeshlawhale",
+  "resume": "https://drive.google.com/file/d/1R9K-tI1PEVoQGulRnJCGhljZmxRGxVQ9/view?usp=drive_link",
   "repo": "https://github.com/sandeshlawhale/terminal-portfolio",
   "socials": [
     {
