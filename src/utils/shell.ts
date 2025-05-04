@@ -13,13 +13,15 @@ export const shell = async (
     clearHistory();
   } else if (firstArgs === "") {
     setHistory("");
-  } else if (Object.keys(bin).indexOf(firstArgs) === -1) {
+  } else if (!(firstArgs in bin)) {
     setHistory(`shell: command not found: ${firstArgs}, Try "help" to start`);
   } else {
-    const output = await bin[firstArgs as keyof typeof bin]();
+    const output = await bin[firstArgs as keyof typeof bin](
+      args.slice(1),
+      setHistory
+    );
     setHistory(output);
   }
-  // for non existent cmd
-  // for output
+
   setCommand("");
 };
