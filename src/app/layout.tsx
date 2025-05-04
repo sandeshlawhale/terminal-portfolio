@@ -16,9 +16,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="">
       <body
-        className={`${fira_code.className} bg-background text-foreground text-base md:text-lg min-w-max h-screen p-2 antialiased overflow-hidden overflow-x-auto`}
+        className={`${fira_code.className} bg-background text-foreground text-base md:text-lg min-w-max h-screen p-2 antialiased overflow-y-hidden overflow-x-auto`}
       >
         {children}
       </body>
