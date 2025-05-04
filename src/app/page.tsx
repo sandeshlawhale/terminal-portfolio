@@ -42,7 +42,7 @@ const Home = () => {
 
   return (
     <main
-      className="w-full h-full border-2 border-gray rounded-md px-10 py-6 overflow-auto scroll-smooth"
+      className="w-full h-full border-2 border-gray rounded-md px-4 py-2 sm:px-10 sm:py-6 overflow-auto scroll-smooth"
       onClick={onClickAnywhere}
     >
       <History history={history} />
