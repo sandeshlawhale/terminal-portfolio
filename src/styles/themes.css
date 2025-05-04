@@ -1,0 +1,109 @@
+:root {
+  --background: #1a1b1f;
+  --foreground: #e5e9f0;
+  --blue: #5e81ac;
+  --gray: #88c0d0;
+  --green: #92ba6f;
+  --yellow: #ebcb8b;
+  --red: #c65460;
+}
+.gruvbox {
+  --background: #1c1c1c;
+  --foreground: #ebdbb2;
+  --yellow: #d79921;
+  --green: #98971a;
+  --gray: #a89984;
+  --blue: #458588;
+  --red: #ca2124;
+}
+.dracula {
+  --background: #282a36;
+  --foreground: #f8f8f2;
+  --yellow: #ffb86c;
+  --green: #50fa7b;
+  --gray: #bd93f9;
+  --blue: #8be9fd;
+  --red: #ff5555;
+}
+.dracula-light {
+  --background: #e5e9f0;
+  --foreground: #2e3440;
+  --yellow: #5e81ac;
+  --green: #62b11e;
+  --gray: #45d7ff;
+  --blue: #ffaa00;
+  --red: #ff3146;
+}
+.nord {
+  --background: #2e3440;
+  --foreground: #e5e9f0;
+  --yellow: #5e81ac;
+  --green: #a3be8c;
+  --gray: #88c0d0;
+  --blue: #ebcb8b;
+  --red: #bf616a;
+}
+.nord-light {
+  --background: #ffffdb;
+  --foreground: #282a36;
+  --yellow: #ffb86c;
+  --green: #00b62d;
+  --gray: #8b6bb9;
+  --blue: #67afc0;
+  --red: #ff5555;
+}
+.monokai {
+  --background: #272822;
+  --foreground: #f8f8f2;
+  --yellow: #f4bf75;
+  --green: #a6e22e;
+  --gray: #ae81ff;
+  --blue: #66d9ef;
+  --red: #f92672;
+}
+.mocha {
+  --background: #3b3228;
+  --foreground: #d0c8c6;
+  --yellow: #f4bc87;
+  --green: #beb55b;
+  --gray: #a89bb9;
+  --blue: #8ab3b5;
+  --red: #cb6077;
+}
+.solarized {
+  --background: #002b36;
+  --foreground: #93a1a1;
+  --yellow: #b58900;
+  --green: #859900;
+  --gray: #6c71c4;
+  --blue: #268bd2;
+  --red: #dc322f;
+}
+.solarized-light {
+  --background: #fdf6e3;
+  --foreground: #586e75;
+  --yellow: #b58900;
+  --green: #859900;
+  --gray: #6c71c4;
+  --blue: #268bd2;
+  --red: #dc322f;
+}
+.paraiso {
+  --background: #2f1e2e;
+  --foreground: #a39e9b;
+  --yellow: #fec418;
+  --green: #48b685;
+  --gray: #815ba4;
+  --blue: #06b6ef;
+  --red: #ef6155;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-blue: var(--blue);
+  --color-gray: var(--gray);
+  --color-green: var(--green);
+  --color-yellow: var(--yellow);
+  --color-red: var(--red);
+}
