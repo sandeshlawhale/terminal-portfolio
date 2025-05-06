@@ -4,7 +4,8 @@ export const shell = async (
   command: string,
   setHistory: (value: string) => void,
   clearHistory: () => void,
-  setCommand: (value: string) => void
+  setCommand: (value: string) => void,
+  openSnakeGame: () => void
 ) => {
   const args = command.split(" ");
   const firstArgs = args[0].toLowerCase();
@@ -13,6 +14,9 @@ export const shell = async (
     clearHistory();
   } else if (firstArgs === "") {
     setHistory("");
+  } else if (firstArgs === "snake") {
+    openSnakeGame();
+    setHistory("Opening Snake game...");
   } else if (!(firstArgs in bin)) {
     setHistory(`shell: command not found: ${firstArgs}, Try "help" to start`);
   } else {

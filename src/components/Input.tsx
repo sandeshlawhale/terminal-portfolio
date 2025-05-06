@@ -13,6 +13,7 @@ interface InputProps {
   clearHistory: () => void;
   lastCommandIndex: number;
   setLastCommandIndex: Dispatch<SetStateAction<number>>;
+  openSnakeGame: () => void;
 }
 const Input = ({
   command,
@@ -23,6 +24,7 @@ const Input = ({
   clearHistory,
   lastCommandIndex,
   setLastCommandIndex,
+  openSnakeGame,
 }: InputProps) => {
   const [loading, setLoading] = useState(false);
 
@@ -45,7 +47,7 @@ const Input = ({
       event.preventDefault();
       setLoading(true);
       setLastCommandIndex(0);
-      await shell(command, setHistory, clearHistory, setCommand);
+      await shell(command, setHistory, clearHistory, setCommand, openSnakeGame);
       setLoading(false);
     }
 
