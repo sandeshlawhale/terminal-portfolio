@@ -1,10 +1,8 @@
 "use client";
-import { useSnake } from "@/hooks/useSnake";
 import React, {
   KeyboardEvent,
   RefObject,
   useEffect,
-  useRef,
   useState,
 } from "react";
 

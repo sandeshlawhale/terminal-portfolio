@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export const useSnake = () => {
   const [showSnakeGame, setShowSnakeGame] = useState<boolean>(false);
