@@ -3,6 +3,7 @@ import React, { Dispatch, RefObject, SetStateAction, useState } from "react";
 import Ps1 from "./Ps1";
 import { history } from "./history/interface";
 import { shell } from "@/utils/shell";
+import * as bin from "@/utils/bin/index";
 
 interface InputProps {
   command: string;
@@ -102,7 +103,17 @@ const Input = ({
           autoFocus
           autoComplete="off"
           spellCheck="false"
-          className="outline-none border-none grow"
+          className={`outline-none border-none grow ${
+            command
+              ? Object.keys(bin).includes(
+                  command.trim().split(" ")[0].toLowerCase()
+                ) ||
+                command.trim().split(" ")[0].toLowerCase() === "clear" ||
+                command.trim().split(" ")[0].toLowerCase() === "snake"
+                ? "text-green"
+                : "text-red"
+              : "text-white"
+          }`}
         />
       </div>
     );
